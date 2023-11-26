@@ -1,0 +1,7 @@
+docx2pdf
+pdf2docx
+pytube
+youtube_transcript_api
+gtts
+pyfiglet
+wheel
