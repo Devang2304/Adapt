@@ -4,7 +4,7 @@ setup(
     name='Adapt', 
     version='0.1.0',  
     description='A versatile CLI tool for various conversions and tasks',
-    url='',
+    url='https://github.com/Devang2304/Adapt',
     author='Devang Vartak',
     author_email='devangvartak2304@gmail.com',
     packages=['Adapt'], 
