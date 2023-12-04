@@ -1,8 +1,0 @@
-README.md
-setup.py
-Adapt.egg-info/PKG-INFO
-Adapt.egg-info/SOURCES.txt
-Adapt.egg-info/dependency_links.txt
-Adapt.egg-info/entry_points.txt
-Adapt.egg-info/requires.txt
-Adapt.egg-info/top_level.txt

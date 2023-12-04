@@ -26,7 +26,7 @@ def get_video_id(url):
 @click.command()
 def intro_cli():
     f = Figlet(font='slant')
-    print(f.renderText('Welcome to CLI Script!'))
+    print(f.renderText('Welcome to SyncPulse!'))
     print("\n")
     developer_name = "Devang Vartak"
     github_link = "https://github.com/Devang2304"
@@ -40,7 +40,7 @@ def intro_cli():
 
 
 def help():
-    print("Usage: python script_name.py conversion_type input_path output_path")
+    print("Usage: SyncPulse conversion_type input_path output_path")
     print("Valid conversion types: docx_to_pdf, pdf_to_docx, download_video, download_transcript, text_to_speech")
     sys.exit(1) 
     
@@ -95,7 +95,7 @@ def main():
         sys.exit(1)
 
     elif len(sys.argv) < 4 or sys.argv[1] not in ['docx_to_pdf', 'pdf_to_docx', 'download_video', 'download_transcript','text_to_speech','help']:
-        print("Usage: python script_name.py conversion_type input_path output_path")
+        print("Usage: SyncPulse conversion_type input_path output_path")
         print("Valid conversion types: docx_to_pdf, pdf_to_docx, download_video, download_transcript, text_to_speech")
         sys.exit(1) 
 
@@ -116,6 +116,5 @@ def main():
     elif conversion_type == 'help':
         help()
 
-if __name__ == "__main__":
-    main()
+
 
